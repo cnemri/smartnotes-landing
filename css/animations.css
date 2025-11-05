@@ -17,7 +17,7 @@
     5%      { top: 60%; left: 60%; }
     
     /* STEP 1: Click 'Connect' on profile (approx top left-ish) */
-    10%     { top: 250px; left: 80px; transform: scale(1); animation-timing-function: ease-out; }
+    10%     { top: 300px; left: 80px; transform: scale(1); animation-timing-function: ease-out; }
     11%     { transform: scale(0.9); }
     12%     { transform: scale(1); animation-timing-function: ease-in; }
     
@@ -35,7 +35,7 @@
     
     /* STEP 3: Click 'Send' (bottom right of modal) */
     /* Modal bottom is approx 450px. Send button is near there. */
-    65%     { top: 370px; left: calc(50% + 150px); animation-timing-function: ease-out; }
+    65%     { top: 430px; left: calc(50% + 150px); animation-timing-function: ease-out; }
     66%     { transform: scale(0.9); } /* Click */
     67%     { transform: scale(1); }
     
