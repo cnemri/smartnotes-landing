@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smartNotes - Stop Getting Ignored on LinkedIn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Ambient Lighting Rigs -->
+    <div class="ambient-light light-1"></div>
+    <div class="ambient-light light-2"></div>
+
+    <!-- NAVBAR -->
+    <nav class="container navbar reveal-up active">
+        <div class="nav-content">
+            <a href="#" class="logo">
+                <div class="logo-icon">⚡️</div> smartNotes
+            </a>
+            <div class="nav-links">
+                <a href="#how-it-works">How it Works</a>
+                <a href="#pricing">Pricing</a>
+            </div>
+            <a href="#" class="btn btn-primary">Add to Chrome - Free</a>
+        </div>
+    </nav>
+
+    <!-- SCENE 1: THE HOOK -->
+    <section class="hero narrative-section">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-grid">
+            <div class="hero-content reveal-up active">
+                <div class="badge-pill">🛑 STOP DOING THIS</div>
+                <h1 class="premium-title">"I'd like to add you to my professional network..."</h1>
+                <p class="narrative-lead">It's the fastest way to get ignored. You know you need to personalize your invites, but who has 15 minutes to research every single prospect?</p>
+                <div class="hero-btns">
+                    <a href="#solution" class="btn btn-primary">See the Better Way</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper reveal-up delay-2 active">
+                <div class="pain-graphic">
+                    🗑️ 👻 📉
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCENE 2: THE AGITATION -->
+    <section class="narrative-section text-center">
+        <div class="container" style="max-width: 800px;">
+            <h2 class="reveal-up">The Networking Trap</h2>
+            <p class="reveal-up delay-1">You have two bad choices: send generic spam and ruin your reputation, or spend your entire day writing a handful of perfect notes that might still get missed.</p>
+            <div class="stat-grid reveal-up delay-2">
+                <div class="stat-block">
+                    <span class="stat-number text-gradient"> < 15%</span>
+                    <span class="stat-label">Avg. Acceptance Rate for Generic Invites</span>
+                </div>
+                <div class="stat-block">
+                    <span class="stat-number text-gradient">10 hrs</span>
+                    <span class="stat-label">Wasted per week writing manual notes</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCENE 3: THE SOLUTION -->
+    <section id="solution" class="narrative-section">
+        <div class="container">
+            <div class="section-header text-center reveal-up">
+                <div class="badge-pill highlight">✨ THERE IS A THIRD OPTION</div>
+                <h2>Meet Your AI Wingman</h2>
+                <p>smartNotes lives in your browser. It reads the profile you're looking at, finds common ground, researches their company news, and writes a perfect, non-cringey invite in seconds.</p>
+            </div>
+            
+            <!-- THE DEMO ANIMATION -->
+            <div class="animation-stage reveal-up delay-1">
+                 <div class="linkedin-mockup">
+                        <div class="mockup-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#0a66c2"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.75 1.75 0 118.3 6.5a1.75 1.75 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 4.5z"/></svg>
+                        </div>
+                        <div class="mockup-body">
+                            <div class="profile-card">
+                                <div class="profile-banner"></div>
+                                <div class="profile-pic">
+                                    <img src="https://i.pravatar.cc/150?img=32" alt="Profile">
+                                </div>
+                                <div class="profile-info">
+                                    <h3 class="profile-name">Emily Chen</h3>
+                                    <p class="profile-headline">VP of Product @ TechNova • AI Enthusiast</p>
+                                    <button class="connect-btn">Connect</button>
+                                </div>
+                            </div>
+                            <!-- Ghost bars for content skeleton -->
+                            <div class="ghost-bar" style="height: 12px; width: 90%;"></div>
+                            <div class="ghost-bar" style="height: 12px; width: 75%;"></div>
+                            <div class="ghost-bar" style="height: 12px; width: 80%;"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- The Modal that pops up -->
+                    <div class="mockup-modal">
+                        <div class="modal-title">Invite Emily to connect</div>
+                        <div class="injected-row">
+                             <div class="injected-label">
+                                ⚡️ smartNotes
+                             </div>
+                             <button class="injected-btn"></button>
+                        </div>
+                        <textarea class="modal-textarea" readonly>Hi Emily, loved your recent talk on ethical AI. I'm dwelling on similar problems and would love to share notes.</textarea>
+                        <div class="modal-actions">
+                            <button class="modal-btn modal-btn-secondary">Cancel</button>
+                            <button class="modal-btn modal-btn-primary">Send now</button>
+                        </div>
+                    </div>
+                    
+                    <div class="mockup-cursor"></div>
+                    <div class="success-toast">✅ Invitation sent with smart note!</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCENE 4: THE TRANSFORMATION -->
+    <section id="how-it-works" class="narrative-section">
+        <div class="container">
+            <div class="comparison-grid reveal-up">
+                <div class="comparison-col old-way">
+                    <h3>❌ The Old Way</h3>
+                    <ul>
+                        <li>Open 10 tabs to research one person.</li>
+                        <li>Struggle to find a non-creepy "hook".</li>
+                        <li>Copy-paste the same boring template.</li>
+                        <li><strong>Result:</strong> Ignored.</li>
+                    </ul>
+                </div>
+                <div class="comparison-col new-way">
+                    <h3>⚡️ The smartNotes Way</h3>
+                    <ul>
+                        <li>Click one button on their profile.</li>
+                        <li>AI finds their recent posts and company news.</li>
+                        <li>Get 3 personalized options instantly.</li>
+                        <li><strong>Result:</strong> Connected.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCENE 5: SOCIAL PROOF -->
+    <section class="testimonials narrative-section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2>It Actually Works.</h2>
+            </div>
+            <div class="testimonials-grid reveal-up delay-1">
+                <div class="testimonial-card">
+                    <p>"I was skeptical, but my acceptance rate went from ~20% to over 60% in the first week. It pays for itself in one day."</p>
+                    <div class="user-meta">
+                        <img src="https://i.pravatar.cc/150?img=47" alt="Sarah J." class="user-avatar">
+                        <div class="user-info">
+                            <strong>Sarah J.</strong><span>Recruiter @ Meta</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"The 'Google Grounding' feature is insane. It referenced a news article about their company that came out YESTERDAY."</p>
+                    <div class="user-meta">
+                        <img src="https://i.pravatar.cc/150?img=33" alt="David L." class="user-avatar">
+                        <div class="user-info">
+                            <strong>David L.</strong><span>SDR @ Salesforce</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Finally, AI that doesn't sound like a robot. The drafts actually sound like something I would write, just 100x faster."</p>
+                    <div class="user-meta">
+                        <img src="https://i.pravatar.cc/150?img=5" alt="Priya M." class="user-avatar">
+                        <div class="user-info">
+                            <strong>Priya M.</strong><span>Founder</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCENE 6: THE OFFER -->
+    <section id="pricing" class="pricing narrative-section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2>Stop Wasting Opportunities.</h2>
+                <p>Start for free. Upgrade when you're ready to scale.</p>
+            </div>
+            <div class="pricing-grid reveal-up delay-1">
+                <div class="pricing-card">
+                    <div class="plan-name">Starter</div>
+                    <div class="plan-price">$0</div>
+                    <div class="plan-credits">50 credits/mo</div>
+                    <ul class="plan-features">
+                        <li>Enough to try it out</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline" style="width: 100%; margin-top: auto;">Add to Chrome</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="plan-name">Micro</div>
+                    <div class="plan-price">$3<span>/mo</span></div>
+                    <div class="plan-credits">500 credits/mo</div>
+                    <ul class="plan-features">
+                        <li>⚡️ ~500 Standard Drafts</li>
+                        <li>or ⚡️ ~50 Grounded Drafts</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline" style="width: 100%; margin-top: auto;">Get Started</a>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="popular-badge">MOST POPULAR</div>
+                    <div class="plan-name">Networker</div>
+                    <div class="plan-price">$9<span>/mo</span></div>
+                    <div class="plan-credits">2,000 credits/mo</div>
+                    <ul class="plan-features">
+                        <li>⚡️ ~2,000 Standard Drafts</li>
+                        <li>or ⚡️ ~200 Grounded Drafts</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary" style="width: 100%; margin-top: auto;">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="plan-name">Pro</div>
+                    <div class="plan-price">$29<span>/mo</span></div>
+                    <div class="plan-credits">8,000 credits/mo</div>
+                    <ul class="plan-features">
+                        <li>⚡️ Power User Limits</li>
+                        <li>⚡️ Priority Support</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline" style="width: 100%; margin-top: auto;">Go Pro</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT & CONTACT -->
+    <section id="about" class="narrative-section text-center" style="padding: 80px 0; border-top: 1px solid var(--glass-border);">
+        <div class="container" style="max-width: 600px;">
+             <h2 class="reveal-up" style="font-size: 28px; margin-bottom: 24px;">Built by Frustrated Networkers</h2>
+             <p class="reveal-up delay-1" style="color: var(--color-text-muted); margin-bottom: 32px;">We built smartNotes because we hated sending generic connection requests as much as you hate receiving them. Our mission is to make professional networking human again.</p>
+             <div class="reveal-up delay-2">
+                 <a href="mailto:hello@smartnotes.ai" class="btn btn-outline">Contact Us</a>
+             </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer reveal-up">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3><div class="logo-icon">⚡️</div> smartNotes</h3>
+                    <p>AI-powered LinkedIn networking assistant.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#how-it-works">How it Works</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="mailto:hello@smartnotes.ai">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 smartNotes. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navbar scroll effect
+        const nav = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) nav.classList.add('scrolled');
+            else nav.classList.remove('scrolled');
+        });
+
+        // Reveal on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.15 });
+
+        document.querySelectorAll('.reveal-up').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
